@@ -1,0 +1,4 @@
+configuracion,variables,escalado,K,inercia,silueta,tamanos,ARI_vs_A
+A: 5 variables + StandardScaler,5,Sí,5,94595.3,0.3324,11102 / 10337 / 17061 / 1373 / 9724,1.0
+B: puntaje y palabras + StandardScaler,2,Sí,5,15523.5,0.4808,13980 / 4487 / 12648 / 8188 / 10294,0.404
+C: 5 variables sin escalar,5,No,5,139573.5,0.4458,16664 / 15622 / 5980 / 5032 / 6299,0.511

@@ -1,0 +1,13 @@
+# Entorno y caché
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.log

@@ -1,0 +1,76 @@
+{
+  "registros": 51385,
+  "columnas": 5,
+  "variables": [
+    "platform",
+    "review_id",
+    "published_date",
+    "score",
+    "review_text"
+  ],
+  "tipos": {
+    "platform": "str",
+    "review_id": "str",
+    "published_date": "str",
+    "score": "int64",
+    "review_text": "str"
+  },
+  "nulos": {
+    "platform": 0,
+    "review_id": 0,
+    "published_date": 0,
+    "score": 0,
+    "review_text": 0
+  },
+  "duplicados_review_id": 1156,
+  "duplicados_texto": 651,
+  "plataformas": {
+    "playstation-5": 46317,
+    "xbox-series-x": 5068
+  },
+  "puntaje_promedio": 5.0,
+  "registros_por_plataforma": {
+    "playstation-5": 46317,
+    "xbox-series-x": 5068
+  },
+  "registros_iniciales": 51385,
+  "registros_sin_duplicados": 50124,
+  "resenas_menos_8_palabras": 527,
+  "registros_finales": 49597,
+  "nulos_finales": 0,
+  "puntaje_min": 0,
+  "puntaje_max": 10,
+  "palabras_p99": 553.0,
+  "palabras_max": 1364,
+  "winsor_negatividad": 484,
+  "winsor_mayusculas": 502,
+  "k_final": 5,
+  "k_silueta_max": 5,
+  "silueta_final": 0.3324,
+  "inercia_final": 94595.3,
+  "iteraciones": 8,
+  "pca_varianza": [
+    0.3468,
+    0.2732
+  ],
+  "aspecto_top": "Historia / ritmo",
+  "aspecto_top_menciones": 20467,
+  "pct_negativas_global": 50.7,
+  "puntaje_promedio_modelo": 5.02,
+  "palabras_promedio": 75.3,
+  "pct_ps5": 91.2,
+  "config_a_silueta": 0.3324,
+  "config_b_silueta": 0.4808,
+  "config_c_silueta": 0.4458,
+  "ari_a_b": 0.404,
+  "ari_a_c": 0.511,
+  "n_clusters": 5,
+  "tamanos": {
+    "0": 11102,
+    "1": 10337,
+    "2": 17061,
+    "3": 1373,
+    "4": 9724
+  },
+  "generado": "2026-11-24 20:43"
+}
